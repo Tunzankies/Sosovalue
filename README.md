@@ -1,5 +1,3 @@
-Dưới đây là nội dung cho file `README.md` được thiết kế đẹp mắt, rõ ràng và chuyên nghiệp bằng Markdown. Tôi đã dựa trên hướng dẫn sử dụng mà bạn cung cấp để tạo ra một tài liệu dễ đọc và hấp dẫn.
-
 ---
 
 # SOSOVALUE TOOL
