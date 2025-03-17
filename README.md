@@ -82,6 +82,12 @@ Dưới đây là cấu hình mẫu trong file `config.json`. Chỉnh sửa theo
   - Token sẽ được lưu vào `tokens.txt`.
 
 - **Kết nối X**:
+  - Cần cài 2 extension trước khi connect X
+  - 1: CapMonster Cloud — automated captcha solver
+  - 2: getOTP_soso_ex_v1(by tunankies)
+  - **Lưu ý**: tài khoản phải login sẵn X
+  - Mua X liên hệ @tunankies giá 400đ/acc
+  - có script login X đi kèm
   - Copy danh sách tài khoản từ `account.txt` vào cột B trong file Excel mẫu (có sẵn trong tool).
   - Cột A: Tên profile X (đã đăng nhập sẵn tài khoản X).
   - Ref từ X sẽ cộng thêm **25k điểm giới thiệu**.
