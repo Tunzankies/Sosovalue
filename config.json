@@ -1,0 +1,15 @@
+{
+    "waitTime": 86400,
+    "numberThread": 20,
+    "refCode": "2413Y837",
+    "checkProxy": true,
+    "autoReg": false,
+    "taskDaily": false,
+    "getToken": false,
+    "ref_2": {
+        "enable": false,
+        "numberRef2": 10
+    },
+    "LoginMetaMask": true,
+    "API_CAPMONSTER": "da74188fd4f46e2f793a00c55a62f7d0"
+}
