@@ -119,3 +119,116 @@ Tool được phát triển bởi **@tunankies**. Nếu thấy hữu ích, hãy:
 **Cảm ơn bạn đã sử dụng SOSOVALUE TOOL! Chúc bạn thành công!** 🚀
 
 --- 
+
+
+# ENGLISH
+SOSOVALUE TOOL
+Latest Version: v1.0.1 | Author: @tunankies | Contact: Telegram
+A powerful automation tool for the SOSOVALUE platform, designed to streamline ref boosting, daily task completion, token retrieval, and X account integration.
+
+✨ KEY FEATURES
+
+Multi-Tier Ref Boosting: Automates ref boosting for primary and secondary accounts with a multi-tier mechanism.
+X Integration: Automatically connects X accounts to increase ref points (each X account adds ref points).
+Daily Task Automation: Bypasses all daily tasks for accounts linked with X.
+Token Retrieval: Automatically retrieves new tokens if they expire or are lost.
+
+
+⚙️ CONFIG.JSON SETUP
+Below is a sample configuration for the config.json file. Adjust it based on your needs:
+{
+    "waitTime": 10,          // Wait time between loops (seconds)
+    "numberThread": 20,      // Number of concurrent threads (requires sufficient proxies)
+    "refCode": "2413Y837",   // Main SOSOVALUE ref code
+    "checkProxy": true,      // Enable proxy checking (recommended to keep enabled)
+    "autoReg": true,         // Automatically register and boost refs
+    "taskDaily": true,       // Run daily tasks
+    "ref_2": {               // Multi-tier ref boosting mode
+        "enable": true,      // Enable tier-2 ref boosting
+        "numberRef2": 3      // Number of refs to boost in tier 2
+    },
+    "getToken": true,        // Retrieve new tokens
+    "API_CAPMONSTER": "your_api_key" // CapMonster API Key
+}
+
+Operation Modes
+
+Account Registration: Enable only "autoReg": true, disable other options.
+Token Retrieval: Enable only "getToken": true, disable other options.
+Daily Tasks: Enable only "taskDaily": true, disable other options.
+
+
+🛠️ INSTALLATION AND SETUP
+1. Prepare CapMonster API
+
+Step 1: Visit CapMonster Dashboard to purchase a captcha-solving API.
+Step 2: Copy the API Key and paste it into "API_CAPMONSTER" in the config.json file.
+
+2. Configure Proxies
+
+Create a proxies.txt file with the format:  ip:port:username:password
+
+
+Example:192.168.1.1:8080:user1:pass1
+10.0.0.1:3128:user2:pass2
+
+
+
+3. Run the Tool
+
+Execute the file:sosovalue.exe
+
+
+
+
+📂 ACCOUNT MANAGEMENT
+
+Upon Successful Registration:
+
+Accounts are saved to account.txt in the format:  username|password
+
+
+Ref codes are saved to ref.txt.
+Tokens are saved to tokens.txt.
+
+
+X Integration:
+
+Install two browser extensions before connecting X:
+CapMonster Cloud — automated captcha solver
+getOTP_soso_ex_v1 (by tunankies)
+
+
+Note: X accounts must be logged in beforehand.
+Purchase X accounts via @tunankies (400đ/account).
+A script for logging into X is included.
+Copy the account list from account.txt to column B in the provided Excel template (included with the tool).
+Column A: X profile names (already logged into X accounts).
+Each X ref adds 25k referral points.
+
+
+
+
+🔒 SECURITY FEATURES
+
+Fake User-Agent: The tool automatically rotates User-Agents randomly.
+Proxy Support: Ensures anonymity and prevents bans.
+
+
+📝 IMPORTANT NOTES
+
+Always enable "checkProxy": true to verify proxies before running.
+Contact Telegram: @tunankies for support.
+
+
+❤️ SUPPORT THE AUTHOR
+This tool was developed by @tunankies. If you find it useful, please:
+
+Subscribe to my channel: Bào Ngư's Airdrop.
+Contact via Telegram: tunankies to show support or report issues.
+
+
+Thank you for using SOSOVALUE TOOL! Wishing you success! 🚀
+
+
+
