@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "OTP Sosovalue Extractor",
+    "version": "1.0.0",
+    "description": "Extract OTP",
+    "permissions": ["activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
