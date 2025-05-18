@@ -1,15 +1,8 @@
 {
     "waitTime": 86400,
-    "numberThread": 20,
+    "numberThread": 1,
     "refCode": "2413Y837",
     "checkProxy": true,
-    "autoReg": false,
-    "taskDaily": false,
-    "getToken": false,
-    "ref_2": {
-        "enable": false,
-        "numberRef2": 10
-    },
-    "LoginMetaMask": false,
-    "API_CAPMONSTER": "your_api_key"
+    "password": "Tunzankies123@",
+    "API_CAPMONSTER": "your_api"
 }
